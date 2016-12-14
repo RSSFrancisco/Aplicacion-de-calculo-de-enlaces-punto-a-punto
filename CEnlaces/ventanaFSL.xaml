@@ -1,0 +1,17 @@
+﻿<Window x:Class="CEnlaces.ventanaFSL"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ventanaFSL" Height="450" Width="900">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="409" VerticalAlignment="Top" Width="726">
+            <Menu HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="582">
+                <Button Content="Button" Height="33" Width="80"/>
+            </Menu>
+            <Button Content="PIRE" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="106"/>
+            <Button Content="FSL" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Margin="111,0,0,0" Height="43"/>
+            <Button Content="RSL" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Margin="211,0,0,0" Height="43"/>
+            <Button Content="MD" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Margin="311,0,0,0" Height="43"/>
+        </Grid>
+
+    </Grid>
+</Window>

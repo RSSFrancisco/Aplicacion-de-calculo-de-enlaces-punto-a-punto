@@ -1,0 +1,60 @@
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\bin\Debug\CEnlaces.exe.config
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\bin\Debug\CEnlaces.exe
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\bin\Debug\CEnlaces.pdb
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\CEnlaces.csprojResolveAssemblyReference.cache
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\principal.baml
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\principal.g.cs
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\App.g.cs
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\CEnlaces_MarkupCompile.cache
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\CEnlaces.g.resources
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\CEnlaces.Properties.Resources.resources
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\CEnlaces.csproj.GenerateResource.Cache
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\CEnlaces.exe
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\CEnlaces.pdb
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\ventanaFSL.baml
+c:\users\paco666\documents\visual studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\ventanaFSL.g.cs
+C:\Users\paco666\Documents\Visual Studio 2013\Projects\CEnlaces\CEnlaces\bin\Debug\ReuxablesLegacy.dll
+C:\Users\paco666\Documents\Visual Studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\acerca.baml
+C:\Users\paco666\Documents\Visual Studio 2013\Projects\CEnlaces\CEnlaces\obj\Debug\acerca.g.cs
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\bin\Debug\CEnlaces.exe.config
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.exe
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.pdb
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\bin\Debug\CEnlaces.exe
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\bin\Debug\CEnlaces.pdb
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.csprojResolveAssemblyReference.cache
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\acerca.baml
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\MenuSistema.baml
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\principal.baml
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\ventanaFSL.baml
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\wpfMenu.baml
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\acerca.g.cs
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\MenuSistema.g.cs
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\principal.g.cs
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\ventanaFSL.g.cs
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\wpfMenu.g.cs
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\App.g.cs
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces_MarkupCompile.cache
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.g.resources
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.Properties.Resources.resources
+C:\Users\paco666\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.csproj.GenerateResource.Cache
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\bin\Debug\CEnlaces.exe.config
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.exe
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.pdb
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\bin\Debug\CEnlaces.exe
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\bin\Debug\CEnlaces.pdb
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\acerca.baml
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\MenuSistema.baml
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\principal.baml
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\ventanaFSL.baml
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\wpfMenu.baml
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\acerca.g.cs
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\MenuSistema.g.cs
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\principal.g.cs
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\ventanaFSL.g.cs
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\wpfMenu.g.cs
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\App.g.cs
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces_MarkupCompile.cache
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.g.resources
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.Properties.Resources.resources
+C:\Users\Ing. Francisco Reyes\Desktop\Sistema Calculo Enlaces Equipo Francisco Reyes Sànchez ITI 9ºA\CEnlaces\CEnlaces\obj\Debug\CEnlaces.csproj.GenerateResource.Cache

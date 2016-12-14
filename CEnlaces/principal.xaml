@@ -1,0 +1,115 @@
+﻿<Window x:Class="CEnlaces.principal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CALCULO ENLACES" Height="450" Width="600" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="imagenes/ACERCA (2).png" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ReuxablesLegacy;component/candy.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Height="419" VerticalAlignment="Bottom">
+        <Grid HorizontalAlignment="Left" Height="372" VerticalAlignment="Top" Width="582" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+            <TabControl HorizontalAlignment="Left" Height="362" Margin="0,57,0,-47" VerticalAlignment="Top" Width="582" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+                <TabItem Header="PIRE">
+                    <Grid Background="#FFF0F7F7" Margin="0,0,0,-2">
+                        <TextBox ToolTip="Potencia Antena Transmisora" HorizontalAlignment="Left" Height="23" Margin="165,101,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" x:Name="txtPotenciaTx" Width="305"/>
+                        <Label Content="Calcular PIRE" HorizontalAlignment="Left" Margin="20,70,0,0" VerticalAlignment="Top"/>
+                        <TextBox ToolTip="-perdida en cables" HorizontalAlignment="Left" Height="23" Margin="165,129,0,0" TextWrapping="Wrap"  x:Name="txtPerdidaCables" VerticalAlignment="Top" Width="305"/>
+                        <TextBox ToolTip="-perdida en conectores" HorizontalAlignment="Left" Height="23" Margin="165,157,0,0" TextWrapping="Wrap"  x:Name="txtPerdidaConectoresTx" VerticalAlignment="Top" Width="305"/>
+                        <TextBox ToolTip="Ganancia de la antena transmisora" HorizontalAlignment="Left" Height="23" Margin="165,185,0,0" TextWrapping="Wrap"  x:Name="txtGananciaTx" VerticalAlignment="Top" Width="305"/>
+                        <Label Content="Potencia Ptx" HorizontalAlignment="Left" Margin="20,98,0,0" VerticalAlignment="Top" Width="130"/>
+                        <Label Content="Perdida Cables Tx" HorizontalAlignment="Left" Margin="20,129,0,0" VerticalAlignment="Top" Width="130"/>
+                        <Label Content="Perdida Conectores Tx" HorizontalAlignment="Left" Margin="20,154,0,0" VerticalAlignment="Top" Width="130"/>
+                        <Label Content="Ganacia Anetna" HorizontalAlignment="Left" Margin="20,180,0,0" VerticalAlignment="Top" Width="130"/>
+                        <Button Content="Calcular" HorizontalAlignment="Left" x:Name="btnCalcularPIRE" Margin="318,213,0,0" VerticalAlignment="Top" Width="75" Click="btnCalcularPIRE_Click"/>
+                        <Button Content="Cancelar" Click="Button_Click" HorizontalAlignment="Left" Margin="398,213,0,0" VerticalAlignment="Top" Width="75"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="FSL" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="55">
+                    <Grid Background="#FFF0F7F7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition Width="283*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox ToolTip="" HorizontalAlignment="Left" Height="23" Margin="155.333,101,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" x:Name="txtDistancia" Width="367" Grid.Column="1"/>
+                        <Label Content="Calcular FSL" HorizontalAlignment="Left" Margin="10.333,70,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                        <TextBox ToolTip="-perdida en cables" HorizontalAlignment="Left" Height="23" Margin="155.333,129,0,0" TextWrapping="Wrap"  x:Name="txtFrecuencia" VerticalAlignment="Top" Width="367" Grid.Column="1"/>
+                        <Label Content="Distancia KM o M" HorizontalAlignment="Left" Margin="10.333,98,0,0" VerticalAlignment="Top" Width="130" Grid.Column="1"/>
+                        <Label Content="Frecuencia Mhz" HorizontalAlignment="Left" Margin="10.333,129,0,0" VerticalAlignment="Top" Width="130" Grid.Column="1"/>
+                        <Button Content="Calcular" HorizontalAlignment="Left" x:Name="btnCalcularFSL" Margin="361.333,157,0,0" VerticalAlignment="Top" Width="75" Click="btnCalcularFSL_Click" Grid.Column="1" />
+                        <Button Content="Cancelar" Click="Button_Click_2" HorizontalAlignment="Left" Margin="447.333,157,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="RSL" HorizontalAlignment="Left" Height="20" VerticalAlignment="Bottom" Width="55" Margin="-2,-2,0,2">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FFF0F7F7" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <Grid Background="#FFF0F7F7">
+                        <Label Content="Calcular RSL" HorizontalAlignment="Left" Margin="12,6,0,0" VerticalAlignment="Top" Height="29" Width="78"/>
+                        <Label Content="PIRE" HorizontalAlignment="Left" Margin="11,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.184,-0.346" Height="29" Width="35"/>
+                        <Label Content="FSL" HorizontalAlignment="Left" Margin="11,75,0,0" VerticalAlignment="Top" Height="29" Width="30"/>
+                        <Label Content="Perdida Cables" HorizontalAlignment="Left" Margin="11,117,0,0" VerticalAlignment="Top" Height="27" Width="93"/>
+                        <Label Content="Perdida Conectores" HorizontalAlignment="Left" Margin="11,156,0,0" VerticalAlignment="Top" Height="27" Width="119"/>
+                        <Label Content="GRX" HorizontalAlignment="Left" Margin="11,191,0,0" VerticalAlignment="Top" Height="30" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="25" Margin="154,41,0,0" TextWrapping="Wrap"  x:Name="txtPIRE" VerticalAlignment="Top" Width="342"/>
+                        <TextBox HorizontalAlignment="Left" Height="25" Margin="154,79,0,0" TextWrapping="Wrap"  x:Name="txtFSL" VerticalAlignment="Top" Width="342"/>
+                        <TextBox HorizontalAlignment="Left" Height="26" Margin="154,120,0,0" TextWrapping="Wrap"  x:Name="txtPerdidadCablesRSL" VerticalAlignment="Top" Width="342"/>
+                        <TextBox HorizontalAlignment="Left" Height="26" Margin="154,156,0,0" TextWrapping="Wrap"  x:Name="txtPerdidaconectoresRSL" VerticalAlignment="Top" Width="342"/>
+                        <TextBox HorizontalAlignment="Left" Height="26" Margin="154,192,0,0" TextWrapping="Wrap"  x:Name="GRX" VerticalAlignment="Top" Width="342"/>
+                        <Button Content="Calcular" HorizontalAlignment="Left" Margin="324,223,0,0" VerticalAlignment="Top" Width="79" Click="Button_Click_1" Height="23"/>
+                        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="421,223,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click_3"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="MD" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="55">
+                    <Grid Background="#FFF0F7F7">
+                        <Label Content="RSL" HorizontalAlignment="Left" Margin="15,22,0,0" VerticalAlignment="Top"/>
+                        <Label Content="Sensibilidad del receptor en dBi" HorizontalAlignment="Left" Margin="15,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.123,-0.577"/>
+                        <TextBox HorizontalAlignment="Left" Height="23" Margin="202,22,0,0" TextWrapping="Wrap" Name="txtMDRSL" VerticalAlignment="Top" Width="319"/>
+                        <TextBox HorizontalAlignment="Left" Height="23" Margin="202,60,0,0" TextWrapping="Wrap" Name="txtSensibilidadReceptor" VerticalAlignment="Top" Width="319"/>
+                        <Button Content="Calcular" Click="btnCalcularMD_Click"  Name="btnCalcularMD" HorizontalAlignment="Left" Margin="366,88,0,0" VerticalAlignment="Top" Width="75"/>
+                        <Button Content="Cancelar" Click="btnCancelarMD_Click" Name="btnCancelarMD" HorizontalAlignment="Left" Margin="446,88,0,0" VerticalAlignment="Top" Width="75"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Zona Fresnel" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="86" Margin="-2,-2,-29,0">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FFF0F7F7" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <Grid Background="#FFF0F7F7">
+                        <Label Content="Distancia D1" HorizontalAlignment="Left" Margin="17,12,0,0" VerticalAlignment="Top" Width="131"/>
+                        <Label Content="Distancia D2" HorizontalAlignment="Left" Margin="17,43,0,0" VerticalAlignment="Top" Width="75"/>
+                        <Label Content="Frecuencia Mhz" HorizontalAlignment="Left" Margin="17,110,0,0" VerticalAlignment="Top" Width="95"/>
+                        <Label Content="Distancia D" HorizontalAlignment="Left" Margin="17,79,0,0" VerticalAlignment="Top"/>
+                        <TextBox HorizontalAlignment="Left" Name="txtDistancia1Fresnel" Height="23" Margin="148,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="358"/>
+                        <TextBox HorizontalAlignment="Left" Name="txtDistancia2Fresnel" Height="23" Margin="148,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="358"/>
+                        <TextBox HorizontalAlignment="Left" Name="txtDistanciaDFresnel" Height="23" Margin="148,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="358"/>
+                        <TextBox HorizontalAlignment="Left" Name="txtFrecuenciaFresnel" Height="23" Margin="148,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="358"/>
+                        <Button Content="Calcular" Click="btnCalcularFresnel_Click" Name="btnCalcularFresnel" HorizontalAlignment="Left" Margin="358,141,0,0" VerticalAlignment="Top" Width="75"/>
+                        <Button Content="Cancelar" Click="btnCancelarFresnel_Click" Name="btnCancelarFresnel" HorizontalAlignment="Left" Margin="443,141,0,0" VerticalAlignment="Top" Width="75"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Resultados" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="76" Margin="-2,-2,-19,0">
+                    <Grid Background="#FFF0F7F7">
+                        <Label Content="PIRE" HorizontalAlignment="Left" Height="28" Name="lblMensajePIRE" Margin="10,10,0,0" VerticalAlignment="Top" Width="298"/>
+                        <Label Content="FSL" HorizontalAlignment="Left" Height="28" x:Name="lblMensajeFSL" Margin="10,38,0,0" VerticalAlignment="Top" Width="298"/>
+                        <Label Content="RSL" Name="lblMensajeRSL"  HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="292"/>
+                        <Label Content="MD" Name="lblMensajeMD" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top"/>
+                        <Label Content="Fresnel" Name="lblMensajeFresnel" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,0.5"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+            <Canvas MouseDown="Canvas_MouseDown_1" HorizontalAlignment="Left" Height="38" VerticalAlignment="Top" Width="126" Margin="0,11,0,0">
+                <Image Height="38" Width="50" Source="imagenes/casa2.png"/>
+                <Label Content="Inicio" Canvas.Left="63" Canvas.Top="4" FontSize="20" Foreground="White"/>
+            </Canvas>
+        </Grid>
+
+    </Grid>
+</Window>
